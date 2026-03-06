@@ -12,18 +12,27 @@ LuxeStore is a sophisticated, single-page e-commerce application designed for a 
     Real-time quantity adjustments and subtotal calculation.
     Dynamic header badge showing live item counts.
 -Fully Responsive: Optimised layouts for Desktop (4 columns), Tablet (3 columns), and Mobile (1–2 columns).
-##🎨 Visual Identity
+
+---
+
+## 🎨 Visual Identity
 The project follows a "Deep Navy & Coral" theme to evoke a sense of luxury and urgency.
 -Primary Colors: #1a1a2e (Deep Navy), #e94560 (Coral Red Accent).
 -Typography:
     Headings: Playfair Display (Elegant Serif).
     Body: DM Sans (Clean Sans-Serif).
 -Effects: Smooth 0.3s transitions, subtle elevation shadows, and scale transforms on hover.
+
+---
+
 ## 🛠 Tech Stack & Requirements
 -Frontend: HTML5, CSS3 (Flexbox/Grid), Vanilla JavaScript.
 -Fonts: Google Fonts (Playfair Display & DM Sans).
 -Icons: Standard Icon Library (e.g., FontAwesome or Lucide).
 -Data: Local products.json file.
+
+---
+
 ## 📁 Project Structure
 ```
 ├── index.html          # Main application structure
@@ -37,6 +46,8 @@ The project follows a "Deep Navy & Coral" theme to evoke a sense of luxury and u
 └── products.json       # Product database
 ```
 Use code with caution.
+
+---
 
 ## 📝 Setup Instructions
 1. Clone the repository:
@@ -53,6 +64,9 @@ Use code with caution.
 
 3. Run with Live Server:
 -Since the project fetches data from products.json, use a local server (like the VS Code "Live Server" extension) to avoid CORS issues.
+
+---
+
 ## ✅ Acceptance Criteria
 -Responsive grid layout across all breakpoints.
 -Functional real-time search and multi-category filtering.
