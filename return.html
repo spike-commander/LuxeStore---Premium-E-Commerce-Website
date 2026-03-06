@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Returns & Refunds - LuxeStore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <a href="index.html" class="logo">LuxeStore</a>
+            <nav class="desktop-nav">
+                <a href="index.html">Home</a>
+                <a href="index.html#products">Shop</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="return.html" class="active">Returns</a>
+            </nav>
+            <div class="header-actions">
+                <a href="login.html" class="auth-link">Login</a>
+                <a href="cart.html" class="cart-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="8" cy="21" r="1"></circle>
+                        <circle cx="19" cy="21" r="1"></circle>
+                        <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path>
+                    </svg>
+                </a>
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="index.html#products">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="return.html">Returns</a>
+        <a href="login.html">Login</a>
+    </div>
+
+    <main class="page-content">
+        <section class="page-hero">
+            <h1>Returns & Refunds</h1>
+            <p>Our hassle-free return policy</p>
+        </section>
+
+        <section class="content-section">
+            <div class="policy-card">
+                <h2>30-Day Return Policy</h2>
+                <p>We want you to be completely satisfied with your purchase. If you're not happy with your order, you can return most items within 30 days of delivery for a full refund.</p>
+            </div>
+
+            <div class="policy-grid">
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3>Easy Returns</h3>
+                    <p>Simply fill out our return form and ship back the item in original packaging.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                            <line x1="1" y1="10" x2="23" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3>Full Refund</h3>
+                    <p>Receive your money back within 5-7 business days after we process your return.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Online Process</h3>
+                    <p>Complete your return request online and get a prepaid shipping label.</p>
+                </div>
+                <div class="policy-item">
+                    <div class="policy-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Quality Guarantee</h3>
+                    <p>Items must be unworn, with tags attached, in original condition.</p>
+                </div>
+            </div>
+
+            <div class="return-form-card">
+                <h2>Request a Return</h2>
+                <form class="return-form" id="returnForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Order Number</label>
+                            <input type="text" placeholder="ORD-123456" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <input type="email" placeholder="your@email.com" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Product Name</label>
+                        <input type="text" placeholder="Product you want to return" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Reason for Return</label>
+                        <select required>
+                            <option value="">Select a reason</option>
+                            <option>Wrong item received</option>
+                            <option>Item defective/damaged</option>
+                            <option>Better price found</option>
+                            <option>Not as described</option>
+                            <option>Changed mind</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Additional Notes</label>
+                        <textarea placeholder="Any additional details..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Return Request</button>
+                </form>
+            </div>
+
+            <div class="faq-section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How long does it take to process a refund?</h3>
+                    <p>Once we receive your returned item, we'll process your refund within 5-7 business days. The time it takes for the refund to appear in your account depends on your payment provider.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Who pays for return shipping?</h3>
+                    <p>For defective or wrong items, we provide a prepaid shipping label. For other returns, the customer is responsible for return shipping costs.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I exchange an item instead of a refund?</h3>
+                    <p>Yes! You can exchange for a different size, color, or product. Just indicate this in your return request.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About</h4>
+                <p>LuxeStore brings you premium products curated for the modern lifestyle.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#products">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="return.html">Returns</a></li>
+                    <li><a href="contact.html">FAQ</a></li>
+                    <li><a href="contact.html">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Newsletter</h4>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LuxeStore. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Noise-Canceling Headphones",
+      "category": "Electronics",
+      "price": 299.99,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+      "description": "Premium over-ear headphones with active noise cancellation and 30-hour battery life."
+    },
+    {
+      "id": 2,
+      "name": "Smart Fitness Watch",
+      "category": "Electronics",
+      "price": 199.99,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "description": "Track your health metrics with GPS, heart rate monitor, and sleep analysis."
+    },
+    {
+      "id": 3,
+      "name": "Premium Cotton T-Shirt",
+      "category": "Clothing",
+      "price": 39.99,
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+      "description": "Soft, breathable organic cotton t-shirt in classic fit."
+    },
+    {
+      "id": 4,
+      "name": "Leather Crossbody Bag",
+      "category": "Clothing",
+      "price": 149.99,
+      "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop",
+      "description": "Genuine leather bag with adjustable strap and multiple compartments."
+    },
+    {
+      "id": 5,
+      "name": "Minimalist Desk Lamp",
+      "category": "Home",
+      "price": 89.99,
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400&h=400&fit=crop",
+      "description": "Modern LED lamp with touch dimmer and USB charging port."
+    },
+    {
+      "id": 6,
+      "name": "Ceramic Vase Set",
+      "category": "Home",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=400&h=400&fit=crop",
+      "description": "Set of 3 handcrafted ceramic vases in neutral tones."
+    },
+    {
+      "id": 7,
+      "name": "Professional Yoga Mat",
+      "category": "Sports",
+      "price": 79.99,
+      "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400&h=400&fit=crop",
+      "description": "Extra-thick, non-slip mat with alignment lines and carrying strap."
+    },
+    {
+      "id": 8,
+      "name": "Adjustable Dumbbells Set",
+      "category": "Sports",
+      "price": 349.99,
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=400&fit=crop",
+      "description": "Space-saving weight set with 5-52.5 lb range per dumbbell."
+    },
+    {
+      "id": 9,
+      "name": "Portable Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 129.99,
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop",
+      "description": "Waterproof speaker with 360-degree sound and 24-hour battery."
+    },
+    {
+      "id": 10,
+      "name": "Wool Blend Winter Coat",
+      "category": "Clothing",
+      "price": 289.99,
+      "image": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=400&h=400&fit=crop",
+      "description": "Classic wool blend coat with quilted lining and hidden buttons."
+    },
+    {
+      "id": 11,
+      "name": "Indoor Plant Pot Set",
+      "category": "Home",
+      "price": 44.99,
+      "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=400&h=400&fit=crop",
+      "description": "Set of 4 geometric planters with drainage holes and saucers."
+    },
+    {
+      "id": 12,
+      "name": "Running Shoes Pro",
+      "category": "Sports",
+      "price": 159.99,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+      "description": "Lightweight running shoes with responsive cushioning and breathable mesh."
+    }
+  ]
+}
