@@ -1,6 +1,6 @@
 #LuxeStore - Premium E-Commerce Experience
 LuxeStore is a sophisticated, single-page e-commerce application designed for a premium shopping experience. Featuring a clean aesthetic and seamless interactions, it offers users a streamlined way to browse products, filter by preferences, and manage a real-time shopping cart.
-##🚀 Key Features
+#🚀 Key Features
 ###Dynamic Product Catalog: Renders a high-quality grid of products fetched from a JSON data source.
 ###Advanced Filtering:
 Category Multi-select: Filter by Electronics, Clothing, Home, and Sports.
