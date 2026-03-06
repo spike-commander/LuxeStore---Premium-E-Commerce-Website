@@ -1,6 +1,6 @@
-#LuxeStore - Premium E-Commerce Experience
+# LuxeStore - Premium E-Commerce Experience
 LuxeStore is a sophisticated, single-page e-commerce application designed for a premium shopping experience. Featuring a clean aesthetic and seamless interactions, it offers users a streamlined way to browse products, filter by preferences, and manage a real-time shopping cart.
-##🚀 Key Features
+## 🚀 Key Features
 
 -Dynamic Product Catalog: Renders a high-quality grid of products fetched from a JSON data source.
 -Advanced Filtering:
@@ -19,12 +19,12 @@ The project follows a "Deep Navy & Coral" theme to evoke a sense of luxury and u
     Headings: Playfair Display (Elegant Serif).
     Body: DM Sans (Clean Sans-Serif).
 -Effects: Smooth 0.3s transitions, subtle elevation shadows, and scale transforms on hover.
-##🛠 Tech Stack & Requirements
+## 🛠 Tech Stack & Requirements
 -Frontend: HTML5, CSS3 (Flexbox/Grid), Vanilla JavaScript.
 -Fonts: Google Fonts (Playfair Display & DM Sans).
 -Icons: Standard Icon Library (e.g., FontAwesome or Lucide).
 -Data: Local products.json file.
-##📁 Project Structure
+## 📁 Project Structure
 ```
 ├── index.html          # Main application structure
 ├── assets/
@@ -38,7 +38,7 @@ The project follows a "Deep Navy & Coral" theme to evoke a sense of luxury and u
 ```
 Use code with caution.
 
-##📝 Setup Instructions
+## 📝 Setup Instructions
 1. Clone the repository:
 ```bash
 git clone https://github.com
@@ -53,7 +53,7 @@ Use code with caution.
 
 3. Run with Live Server:
 -Since the project fetches data from products.json, use a local server (like the VS Code "Live Server" extension) to avoid CORS issues.
-##✅ Acceptance Criteria
+## ✅ Acceptance Criteria
 -Responsive grid layout across all breakpoints.
 -Functional real-time search and multi-category filtering.
 -Cart management (Add/Remove/Update Quantity).
